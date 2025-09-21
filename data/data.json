@@ -96,5 +96,214 @@
         "Next maintenance date"
       ]
     }
+  },
+  "laptop_weekly": {
+    "id": "laptop_weekly",
+    "title": "Laptop Weekly Maintenance Checklist",
+    "equipment": "Laptop",
+    "industry": "IT / Office",
+    "frequency": "Weekly",
+    "estimatedTime": "30-45 minutes",
+    "version": "1.0.0",
+    "lastUpdated": "2025-09-21T00:00:00Z",
+    "sections": {
+      "Safety Precautions": [
+        "Ensure laptop is powered off",
+        "Unplug charger and peripherals",
+        "Work on a static-free surface",
+        "Avoid liquids near the laptop"
+      ],
+      "Cleaning Procedures": [
+        "Clean screen with microfiber cloth",
+        "Remove dust from keyboard",
+        "Clean touchpad and palm rest",
+        "Wipe down external surfaces",
+        "Use compressed air for vents"
+      ],
+      "Software Maintenance": [
+        "Update OS and drivers",
+        "Run antivirus scan",
+        "Clean temporary files",
+        "Backup important files",
+        "Check storage health"
+      ],
+      "Hardware Inspection": [
+        "Check charging port for debris",
+        "Inspect hinges and screws",
+        "Verify battery health",
+        "Check cooling fan operation"
+      ],
+      "Final Checks": [
+        "Reconnect peripherals",
+        "Power on laptop and verify operation",
+        "Document any issues"
+      ]
+    }
+  },
+
+  "office_printer_monthly": {
+    "id": "office_printer_monthly",
+    "title": "Office Printer Monthly Maintenance Checklist",
+    "equipment": "Office Printer",
+    "industry": "Office / IT",
+    "frequency": "Monthly",
+    "estimatedTime": "1 hour",
+    "version": "1.0.0",
+    "lastUpdated": "2025-09-21T00:00:00Z",
+    "sections": {
+      "Safety Precautions": [
+        "Power off the printer",
+        "Unplug from electrical outlet",
+        "Avoid touching hot components"
+      ],
+      "Cleaning Procedures": [
+        "Clean paper tray and rollers",
+        "Wipe external surfaces",
+        "Remove dust from scanner glass",
+        "Clean toner cartridge area"
+      ],
+      "Inspection": [
+        "Check cables and connections",
+        "Inspect rollers for wear",
+        "Verify toner/ink levels",
+        "Check for paper jams"
+      ],
+      "Calibration": [
+        "Run print alignment test",
+        "Check color calibration",
+        "Test scan function"
+      ],
+      "Final Checks": [
+        "Reconnect power and peripherals",
+        "Print test page",
+        "Document maintenance performed"
+      ]
+    }
+  },
+
+  "hvac_quarterly": {
+    "id": "hvac_quarterly",
+    "title": "HVAC Quarterly Maintenance Checklist",
+    "equipment": "HVAC System",
+    "industry": "Facility Management",
+    "frequency": "Quarterly",
+    "estimatedTime": "2-3 hours",
+    "version": "1.0.0",
+    "lastUpdated": "2025-09-21T00:00:00Z",
+    "sections": {
+      "Safety Precautions": [
+        "Turn off HVAC system",
+        "Disconnect main power supply",
+        "Wear safety gloves and goggles"
+      ],
+      "Filters and Cleaning": [
+        "Replace air filters",
+        "Clean condenser and evaporator coils",
+        "Vacuum air ducts and vents",
+        "Remove debris around units"
+      ],
+      "Mechanical Inspection": [
+        "Inspect belts and pulleys",
+        "Check refrigerant levels",
+        "Lubricate motors and bearings",
+        "Inspect ductwork for leaks"
+      ],
+      "Electrical Inspection": [
+        "Check wiring connections",
+        "Test thermostats",
+        "Verify safety switches"
+      ],
+      "Performance Testing": [
+        "Turn system on and test airflow",
+        "Check temperature output",
+        "Monitor for unusual noises or vibrations"
+      ],
+      "Documentation": [
+        "Record maintenance performed",
+        "Note parts replaced or needing replacement",
+        "Update maintenance log"
+      ]
+    }
+  },
+
+  "forklift_weekly": {
+    "id": "forklift_weekly",
+    "title": "Forklift Weekly Maintenance Checklist",
+    "equipment": "Forklift",
+    "industry": "Warehouse / Logistics",
+    "frequency": "Weekly",
+    "estimatedTime": "1 hour",
+    "version": "1.0.0",
+    "lastUpdated": "2025-09-21T00:00:00Z",
+    "sections": {
+      "Safety Precautions": [
+        "Ensure forklift is parked safely",
+        "Turn off engine and remove key",
+        "Wear safety boots and gloves"
+      ],
+      "Pre-Operation Checks": [
+        "Inspect tires for damage or wear",
+        "Check hydraulic fluid levels",
+        "Verify battery charge",
+        "Check forks and mast for damage"
+      ],
+      "Operational Checks": [
+        "Test brakes",
+        "Check steering operation",
+        "Test horn and lights",
+        "Check seat belt functionality"
+      ],
+      "Cleaning": [
+        "Wipe down exterior",
+        "Remove debris from operator cabin"
+      ],
+      "Documentation": [
+        "Log inspections",
+        "Report any issues for repair"
+      ]
+    }
+  },
+
+  "generator_monthly": {
+    "id": "generator_monthly",
+    "title": "Generator Monthly Maintenance Checklist",
+    "equipment": "Diesel Generator",
+    "industry": "Facility / Industrial",
+    "frequency": "Monthly",
+    "estimatedTime": "2 hours",
+    "version": "1.0.0",
+    "lastUpdated": "2025-09-21T00:00:00Z",
+    "sections": {
+      "Safety Precautions": [
+        "Turn off generator",
+        "Allow engine to cool",
+        "Wear gloves and protective eyewear",
+        "Keep area well-ventilated"
+      ],
+      "Fuel and Fluids": [
+        "Check fuel level",
+        "Inspect fuel lines for leaks",
+        "Check oil level and top up if needed",
+        "Inspect coolant level"
+      ],
+      "Mechanical Inspection": [
+        "Inspect belts and hoses",
+        "Check battery terminals and charge",
+        "Examine air filter",
+        "Inspect exhaust system"
+      ],
+      "Operational Testing": [
+        "Start generator and monitor operation",
+        "Check voltage and frequency output",
+        "Listen for unusual noises",
+        "Check emergency stop function"
+      ],
+      "Documentation": [
+        "Record maintenance performed",
+        "Note parts replaced or requiring service",
+        "Schedule next maintenance"
+      ]
+    }
   }
+
 }

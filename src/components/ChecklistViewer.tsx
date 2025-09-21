@@ -108,8 +108,9 @@ const ChecklistViewer = forwardRef<HTMLDivElement, ChecklistViewerProps>(
           {sectionOrder.map((sectionName) => {
             const items = checklist.sections[sectionName] || [];
             const filteredItems = filterItems(items);
-            
+
             if (filteredItems.length === 0 && searchQuery) return null;
+            if (filteredItems.length === 0 && !searchQuery) return null;
 
             return (
               <motion.div
@@ -125,7 +126,7 @@ const ChecklistViewer = forwardRef<HTMLDivElement, ChecklistViewerProps>(
                     {filteredItems.map((item, index) => {
                       const key = `${sectionName}-${index}`;
                       const isChecked = checkedItems[key] || false;
-                      
+
                       return (
                         <motion.div
                           key={index}
@@ -143,9 +144,8 @@ const ChecklistViewer = forwardRef<HTMLDivElement, ChecklistViewerProps>(
                           />
                           <label
                             htmlFor={key}
-                            className={`flex-1 text-sm cursor-pointer leading-relaxed ${
-                              isChecked ? 'line-through text-muted-foreground' : 'text-foreground'
-                            }`}
+                            className={`flex-1 text-sm cursor-pointer leading-relaxed ${isChecked ? 'line-through text-muted-foreground' : 'text-foreground'
+                              }`}
                           >
                             {item}
                           </label>
