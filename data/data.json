@@ -1,0 +1,100 @@
+{
+  "3d_printer_monthly": {
+    "id": "3d_printer_monthly",
+    "title": "3D Printer Monthly Maintenance Checklist",
+    "equipment": "3D Printer",
+    "industry": "Higher Education",
+    "frequency": "Monthly",
+    "estimatedTime": "1-2 hours",
+    "version": "1.0.0",
+    "lastUpdated": "2025-09-21T00:00:00Z",
+    "sections": {
+      "Safety Precautions": [
+        "Ensure printer is powered off and unplugged",
+        "Allow printer to cool completely if recently used",
+        "Wear safety glasses",
+        "Use nitrile gloves when handling cleaning solutions",
+        "Work in a well-ventilated area",
+        "Review printer's safety documentation"
+      ],
+      "Required Tools and Equipment": [
+        "Clean microfiber cloths",
+        "Isopropyl alcohol (90% or higher)",
+        "Compressed air canister",
+        "Basic tool kit (screwdrivers, Allen keys)",
+        "Calibration paper/card",
+        "Cotton swabs",
+        "Nozzle cleaning needles",
+        "Lubricant (as specified by manufacturer)",
+        "Digital caliper",
+        "Vacuum cleaner with brush attachment"
+      ],
+      "Pre-Maintenance Procedures": [
+        "Document current printer settings",
+        "Take photos of printer condition",
+        "Back up printer configuration files",
+        "Clear print bed and surrounding area"
+      ],
+      "Cleaning Procedures": [
+        "Clean print bed surface thoroughly",
+        "Remove debris from linear rails and guides",
+        "Clean extruder assembly",
+        "Clear nozzle of any residual filament",
+        "Clean cooling fans and vents",
+        "Vacuum interior and exterior surfaces",
+        "Wipe down frame and external surfaces"
+      ],
+      "Mechanical Inspection": [
+        "Check belt tension and condition",
+        "Inspect all cables and connections",
+        "Verify stability of frame and components",
+        "Check for loose screws and fasteners",
+        "Examine build plate for damage or wear",
+        "Inspect nozzle condition",
+        "Test all axis movements manually",
+        "Check stepper motors for unusual noise"
+      ],
+      "Calibration": [
+        "Level print bed",
+        "Verify Z-offset",
+        "Check extruder calibration",
+        "Perform XYZ calibration",
+        "Test auto-leveling system (if equipped)"
+      ],
+      "Lubrication": [
+        "Lubricate linear rails",
+        "Apply grease to lead screws",
+        "Lubricate bearings as needed",
+        "Clean excess lubricant"
+      ],
+      "Quality Checks": [
+        "Print test cube",
+        "Verify dimensional accuracy",
+        "Check layer adhesion",
+        "Examine surface quality",
+        "Test retraction settings",
+        "Verify temperature consistency"
+      ],
+      "Documentation": [
+        "Record maintenance performed",
+        "Note any parts replaced",
+        "Document calibration settings",
+        "Update maintenance log",
+        "Report any concerns or needed repairs"
+      ],
+      "Final Checks": [
+        "Clean work area",
+        "Dispose of waste properly",
+        "Return tools to storage",
+        "Power on and verify operation",
+        "Schedule next maintenance"
+      ],
+      "Notes": [
+        "Record any unusual findings or concerns",
+        "Parts that may need replacement soon",
+        "Calibration values",
+        "Next maintenance date"
+      ]
+    }
+  }
+}
